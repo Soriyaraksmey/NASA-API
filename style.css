@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(46, 45, 45);
+}
+
+/* font-family: 'Notable', sans-serif; */
+
+header {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./blue-and-red-galaxy-artwork-1629236.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h2 {
+  padding: 2rem;
+}
+
+#logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+.search-form {
+  padding: 2rem;
+  display: flex;
+}
+
+.search-form input {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  width: 100%;
+  border: 1.3px solid rgb(62, 70, 143);
+}
+
+.search-form button {
+  padding: 0.7rem;
+  background: rgb(62, 70, 143);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(102, 115, 230);
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.more {
+  padding: 0.5rem 1rem;
+  background: rgb(62, 70, 143);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+  min-height: 40vh;
+  display: flex;
+  background: rgb(233, 233, 233);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.img-txt {
+  margin: 2rem;
+}
+
+.img-txt img {
+  width: 512px;
+  height: 376px;
+}
+
+.text h3 {
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.text h4 {
+  font-size: 1.2rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.text p {
+  font-size: 1.2rem;
+}
